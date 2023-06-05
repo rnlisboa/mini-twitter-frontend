@@ -1,0 +1,20 @@
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar {
+    width: 18rem;
+    height: 100vh;
+}
+.sidebarRight {
+    width: 18rem;
+    height: 100vh;
+    border: 1px solid blue;
+}
+
+.content {
+    flex: 1;
+    overflow: auto;
+}
+
