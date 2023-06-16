@@ -1,0 +1,44 @@
+.container{
+    display: flex;
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.header{
+    padding: 0 1rem;
+    margin-bottom: 1.5rem;
+    cursor: pointer;
+}
+
+.avatar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 5rem;
+}
+
+
+.avatarImage{
+    width: 70%;
+    height: 3rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #00000030;
+}
+
+.avatarIcon{
+    font-size: 5rem;
+    color: #00000070;
+}
+
+.name{
+    font-weight: bold;
+    margin-right: .5rem;
+}
+
+.nickname{
+    color: #00000070;
+}

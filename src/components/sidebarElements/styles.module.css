@@ -1,18 +1,17 @@
 .container{
     width: fit-content;
-    padding:1rem;
+    padding:2rem;
     height: 2rem;
     display: flex;
     align-items: center;
     justify-content: flex-start;
     gap: 1rem;
-    margin-bottom: 1.5rem;
     border-radius: 3rem;
-    transition: all 1s;
+    transition: all .5s;
 }
 
 .container:hover{
-    background-color: #00000030;
+    background-color: #00000015;
     cursor: pointer;
 }
 
